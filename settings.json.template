@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "IQUIDUS Gameunits Blockexplorer",
   
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:80",
   
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Gameunits",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "Units",
   
   // logo
   "logo": "/images/logo.png",
@@ -47,8 +47,8 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
+    "port": 1337,
+    "user": "gameunitsrpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
   
@@ -61,7 +61,7 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
     "twitter": true,
     "search": true
@@ -101,7 +101,7 @@
   },
 
   // twitter
-  "twitter": "iquidus",
+  "twitter": "gameunits",
 
   //genesis
   "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
